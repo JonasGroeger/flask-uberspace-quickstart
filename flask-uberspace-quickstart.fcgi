@@ -4,8 +4,9 @@
 # If your application is available at www.domain.com/subdir/subdir2/myapplication this should be /subdir/subdir2/myapplication
 RELATIVE_WEB_URL_PATH = '/projekte/flask-uberspace-quickstart'
 
+import os
 # This points to the application on the local filesystem.
-LOCAL_APPLICATION_PATH = '/home/<user>/html/projekte/flask-uberspace-quickstart'
+LOCAL_APPLICATION_PATH = os.path.expanduser('~') + '/html/projekte/flask-uberspace-quickstart'
 
 import sys
 sys.path.insert(0, LOCAL_APPLICATION_PATH)
