@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Index{% endblock %}
+{% block content %}
+  <h1>Hello World!</h1>
+  {% if name %}
+    <p>Hallo {{ name }}, wie gehts?</p>
+  {% else %}
+    <p>Hallo fremder, wie gehts?</p>
+  {% endif %}
+  <p>Hier gehts zur '<a href="{{ url_for('about') }}">about</a>' Seite.</p>
+{% endblock %}
