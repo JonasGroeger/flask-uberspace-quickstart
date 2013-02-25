@@ -13,8 +13,9 @@ Jetzt installieren wir die benötigten Abhängigkeiten (Die Verwendung einer vir
 
     pip install --requirement=requirements.txt    
 
-Dann verschieben wir noch die .fcgi Datei in das entsprechende Verzeichnis.
+Dann vergeben wir noch die korrekten Rechte und verschieben die .fcgi Datei in das entsprechende Verzeichnis.
 
+    chmod 755 flask-uberspace-quickstart.fcgi
     mv flask-uberspace-quickstart.fcgi ~/fcgi-bin/
 
 ## Konfiguration
