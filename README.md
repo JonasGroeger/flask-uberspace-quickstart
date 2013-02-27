@@ -12,7 +12,7 @@ Erst laden wir uns die Applikation in ein Verzeichnis herunter (ich wähle ~/htm
     git clone git://github.com/JonasGroeger/flask-uberspace-quickstart.git
     cd flask-uberspace-quickstart/
     
-Jetzt installieren wir die benötigten Abhängigkeiten (Die Verwendung einer virtuallen Umgebung ist empfohlen):
+Jetzt installieren wir die benötigten Abhängigkeiten (Die Verwendung einer virtuallen Umgebung ist empfohlen, in [einem anderen Branch habe ich das gemacht](https://github.com/JonasGroeger/flask-uberspace-quickstart/tree/with-virtualenv)):
 
     pip install --requirement=requirements.txt    
 
