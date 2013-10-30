@@ -1,4 +1,4 @@
-#!/usr/bin/env python2.7
+#!/usr/bin/env python
 
 # This is the path relative to /
 # If your application is available at www.domain.com/subdir/subdir2/myapplication this should be /subdir/subdir2/myapplication
