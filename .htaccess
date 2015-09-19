@@ -7,7 +7,6 @@
 </IfModule>
 
 <IfModule mod_rewrite.c>
-   Options +FollowSymlinks
    RewriteEngine On
    RewriteBase /
    RewriteCond %{REQUEST_FILENAME} !-f
