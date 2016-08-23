@@ -1,3 +1,9 @@
+**!**
+
+**Ich warte dieses Projekt nicht mehr! Wenn jemand das ganze übernehmen möchte, forkt mich einfach und ich linke auf dein neues Projekt!**
+
+**!**
+
 # Jeder mag Demos!
 [**Eine Demo, gemacht mit der folgenden Anleitung findest du hier.**](http://jonasgroeger.de/projekte/flask-uberspace-quickstart/)
 
